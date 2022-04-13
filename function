@@ -1,0 +1,14 @@
+#!/bin/bash
+function sub()
+{
+
+        echo "diff of a  and b is"
+        c=$(($a-$b))
+        echo "$c"
+}
+
+echo "enter a number"
+read a
+echo "enter next number"
+read b
+sub $a $b
